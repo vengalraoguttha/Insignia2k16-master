@@ -1,0 +1,202 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <string name="app_name">Insignia2K16</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_global_chat">Global Chat</string>
+
+
+     <string name="HEX_A_HEX">
+        Beware! Dead men tell no tales, neither the one who fails.
+        Don’t be fooled by this simplistic name, presenting witch’s game. For all the quiz heads out there,
+        we bring you another enchanting bout of quizzing. Insignia 2K16 comes out with span new six genres to ensnare
+        your senses. Witness menacing mummies, magnetic moonlight, magic madness manifold.
+        Come in teams of two and take aim at the be’WITCH’ing prize that anticipates the winner.
+        This isn’t the competition for underprepared. Ready yourself and fare this test and be crowned as the victor.
+        The rules here aren’t meant to be bent.
+    </string>
+    <string name="Les_Quizzerables">
+        After the huge success of Thinkquik, the multidisciplinary quiz competition of the first edition,
+        here we are with a bigger n better quizzing event ‘Les Quizzerables’.
+        You gotta leave no stone unturned to grab the prize that awaits the winner.
+        Different genres to choose from and the choice entirely yours.
+        You need to prevail three rounds of elimination and the final face off and the glory is all yours.
+        This Halloween climb the stairway to heaven with your crazy coven.
+        The bylaws are simple and not meant to be disregarded. Brace yourself for this All Hallow’s Eve you need all the spells
+        you can memorize to make your opponents’ bones tickle. Savvy a fa’BOOO’lous experience!
+    </string>
+    <string name="TUSSLE_OF_TONGUES">
+        The stage is all set for one big tussle. In fact for a tussle of tongues.
+        If you think you have it in you to pull off an argument, then gear up for this mega battle of words.
+        All you need to do is to sustain three rounds by giving voice to your thoughts,
+        for the one who puts forward his arguments clearly will be the ultimate titan of this clash of clans.
+        Here is the description of the rounds
+    </string>
+    <string name="NITD_MUN">
+        A Model United Nations is held so that the participating students, who will roleplay as delegates,
+        will learn about international relations between countries and their governments.
+        Here in the NITDMUN 2K16 we aim to achieve the very same thing.
+        We want our participating delegates to learn about diplomacy between the nations,
+        leadership while at the same time participate and showcase their debating skills as well as a plethora of other
+        skills which can define a nation’s delegate.
+        Our NITD MUN planned to simulate three committees of the United Nations namely the General Assembly,
+        Security Council and Human Rights Council. True to the spirit of United Nations, here at NITD MUN,
+        we strive to foster constructive forum for open discourse on various global issues.
+    </string>
+    <string name="WORDSMITHS_WONDERLAND">
+        This event will be held in multiple rounds. Four exciting and thrilling rounds have been prepared to engage
+        the participants for the duration of the event. A team of two can take part in this event.
+        One of the members of the team will compete in the 1st round and the other will compete in the 2nd round.
+        1st Round: This is a simple game spanning a total time of two minutes;
+        the participants have to write down legitimate words from the English Language starting with a given alphabetical letter.
+        2nd Round: This round is a spelling bee, there will be ten words announced over the speakers and the participants have to spell them correctly.
+        3rd Round:  It will commence after duration of time. This shall follow a traditional pattern.
+        The qualified teams will be provided with a question paper with approx.
+        60 questions of varying difficulty. The top 4 teams will move on to the last round. 4th Round:
+        It is a rapid fire round where the 4 teams will be divided into groups of 2.
+        Group A and B will compete amongst themselves. The winning teams from group ‘A’ and group ‘B’ will compete against each other.
+    </string>
+    <string name="FOR_BETTER_FOR_VERSE">
+        Dive in the depths of your mind to produce a masterpiece as Insignia presents a poem writing competition with a twist.
+        The budding poets and poetry enthusiasts are expected to write a poem on a spooky theme, which would be given to them in
+        advance, in such a way that the first letter of each line falls in the alphabetical order.
+        The top 5 chosen poems must then be recited by the respective participants.
+        The best poetry artist would then bag the golden opportunity to win the cash prize.
+        This is indeed a call for splendid poems and be there to carve your own masterpiece.
+    </string>
+    <string name="BLIND_FOLD">
+        Have you ever played blindfold games? If no, then here’s your chance to experience it for the first time,
+        if yes, then relive those moments here in our fest. This is an individual event in which the participants will be given
+        an image to be drawn while blindfolded in 2 minutes. The participants who draw the nearest image will be selected to
+        the next round where they will be competing with the other winners of the previous round.
+        Finally whoever draws the best picture will win the title of best blindfold artist of Insignia 2K16 and
+        a prize of Rs 1000. Isn’t it interesting? Just a couple of minutes to grab thousand bucks!!
+        There’s only on spot registration for the event.
+    </string>
+    <string name="MURRAL_PAINTING">
+        Like playing with clay? Then you are at the right place. This event is a test to the creative side in you.
+        The participants need to decorate a clay model given to them. Waste material, paints, beads, what not, anything can be used.
+        All the participants should do is to give the clay model a life. Sharpen your skills and bring out your episteme.
+        This is a team event with each team consisting not more than three members.
+    </string>
+    <string name="COMES_AROUND_GOES_AROUND">
+        What is the fun in winning if there’s no challenge? If you also go by the same philosophy then you would love this event.
+        All you have to do is create a story of four paragraphs. Sounds simple, isn’t it? Here comes the twist.
+        The given story should be written in such a way that when read backwards, i.e. if the fourth paragraph becomes the first paragraph,
+        a different story should be created. This individual event, will truly put your mind to test and challenge your wits.
+    </string>
+    <string name="title_activity_detail_screen">Event Name</string>
+    <string name="title_activity_detail_events">detail_events</string>
+    <string name="title_activity_instafeed">Instafeed</string>
+    <string name="title_activity_maps">NIT DELHI</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_about_insignia">AboutInsignia</string>
+
+    <string name="invitation_title">Insignia</string>
+    <string name="invitation_message">check this out</string>
+    <string name="invitation_cta">Install!</string>
+
+    <string name="invitation_custom_image">https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/s150x150/13658302_891675384294829_1143366670_a.jpg</string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_logout">Logout</string>
+    <string name="venue">Venue :</string>
+    <string name="title_activity_locate">NIT DELHI</string>
+    <string name="address">National Institute of Technology Delhi\n Institute of Applied Manpower Research (IAMR Campus)\n A-7, Institutional Area\n Near Satyawadi Raja Harish Chandra Hospital,\n Narela, Delhi – 110040</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_about_fest">about_fest</string>
+
+
+</resources>

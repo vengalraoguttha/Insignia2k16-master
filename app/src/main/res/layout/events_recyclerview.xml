@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/event_image_view"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_weight="2"
+                android:src="@drawable/poster1"
+                android:scaleType="center"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:layout_marginLeft="3dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/venue"
+                    android:id="@+id/textView2"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Lecturer Theatre - 2"
+                    android:id="@+id/venue_name"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Scheduled At :"
+                    android:id="@+id/textView4"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="5th September 2016"
+                    android:id="@+id/textView5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Event Coordinators :"
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Shankar,Pavan ,Vengal"
+                    android:id="@+id/textView7"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/event_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#333"
+            android:text="Event Name"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"/>
+        
+    </LinearLayout>
+    
+</android.support.v7.widget.CardView>

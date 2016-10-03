@@ -1,0 +1,71 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parent">
+        <include
+            android:id="@+id/map_a"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            layout="@layout/map_fragment"/>
+
+        <!--<ImageButton-->
+        <!--android:layout_width="64dp"-->
+        <!--android:layout_height="64dp"-->
+        <!--android:id="@+id/route_btn"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:elevation="4dp"-->
+        <!--android:background="@drawable/fab_button"-->
+        <!--android:layout_marginBottom="-32dp"-->
+        <!--android:src="@drawable/alert"-->
+        <!--android:layout_gravity="right"/>-->
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAlignment="center">
+
+            <ImageView
+                android:id="@+id/place_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_place_black_24dp"/>
+
+            <TextView
+                android:layout_toRightOf="@+id/place_icon"
+                android:layout_marginLeft="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/route_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_navigation_white_24dp"
+        app:layout_anchor="@id/map_a"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

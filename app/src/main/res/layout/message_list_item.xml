@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_in"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_person_black_36dp"
+        android:layout_alignParentBottom="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_out"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_person_black_36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat_layout_out"
+            android:orientation="vertical"
+            android:background="@drawable/msg_out"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/profile_image_out"
+            android:layout_toStartOf="@+id/profile_image_out">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:id="@+id/sent_user_out"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#001f3f"
+                android:text="Surya"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/users_message_out"
+                android:layout_marginLeft="10dp"
+                android:text="Users Message"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_timestamp_out"
+                android:text="7:56am"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+
+    <!--Incoming-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_layout_incoming"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/profile_image_in"
+        android:background="@drawable/msg_in">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:id="@+id/sent_user_incoming"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#001f3f"
+            android:text="Surya"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/users_message_incoming"
+            android:layout_marginLeft="24dp"
+            android:text="Users Message"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_timestamp_incoming"
+            android:text="7:56am"
+            android:textSize="12sp"
+            android:padding="4dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+</RelativeLayout>
